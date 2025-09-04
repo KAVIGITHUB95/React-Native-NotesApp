@@ -62,7 +62,7 @@ export default function App() {
   return (
     <NavigationContainer>
       <StatusBar style="auto" />
-      <Stack.Navigator initialRouteName={userToken ? "Home" : "Splash"}>
+      <Stack.Navigator initialRouteName={"Splash"}>
         <Stack.Screen
           name="Splash"
           component={SplashScreen}
