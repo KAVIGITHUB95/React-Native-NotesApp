@@ -3,7 +3,7 @@ import { StyleSheet, ScrollView, View, Text, Pressable, Image, TextInput, Toucha
 import * as ImagePicker from 'expo-image-picker';
 import { Picker } from "@react-native-picker/picker";
 import { ALERT_TYPE, AlertNotificationRoot, Toast } from 'react-native-alert-notification';
-const PUBLIC_URL = "https://12d21df3a4bf.ngrok-free.app/";
+const PUBLIC_URL = "http://10.0.2.2:8080/";
 
 export function SignUpScreen() {
   

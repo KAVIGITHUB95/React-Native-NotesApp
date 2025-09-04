@@ -17,7 +17,7 @@ import { RootParamList } from "../../App";
 
 type SignInNavigationProp = NativeStackNavigationProp<RootParamList, "SignInScreen">;
 
-const PUBLIC_URL = "https://12d21df3a4bf.ngrok-free.app/";
+const PUBLIC_URL = "http://10.0.2.2:8080/";
 
 export function SignInScreen() {
     const navigation = useNavigation<SignInNavigationProp>();
